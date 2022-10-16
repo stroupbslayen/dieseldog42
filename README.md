@@ -1,20 +1,14 @@
 # Dieseldog42
 
-[![PyPI - Version](https://img.shields.io/pypi/v/Dieseldog42.svg)](https://pypi.org/project/Dieseldog42)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Dieseldog42.svg)](https://pypi.org/project/Dieseldog42)
+<!-- [![PyPI - Version](https://img.shields.io/pypi/v/Dieseldog42.svg)](https://pypi.org/project/Dieseldog42)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Dieseldog42.svg)](https://pypi.org/project/Dieseldog42) -->
 
 -----
 
 **Table of Contents**
 
-- [Installation](#installation)
 - [License](#license)
 
-## Installation
-
-```console
-pip install Dieseldog42
-```
 
 ## License
 
