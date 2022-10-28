@@ -43,6 +43,7 @@ dependencies = [
 [tool.hatch.envs.default.scripts]
 cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=src/Dieseldog42 --cov=tests {args}"
 no-cov = "cov --no-cov {args}"
+gui = "python -m src.dieseldog42.main"
 
 [[tool.hatch.envs.test.matrix]]
 python = ["37", "38", "39", "310", "311"]
