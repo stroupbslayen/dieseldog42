@@ -1,7 +1,5 @@
 import tkinter as tk
 from PIL import ImageTk
-from attr import has
-from pyparsing import col
 
 TITLE = "Dieseldog42"
 GEOMETRY = "500x500"
@@ -46,7 +44,7 @@ class DieselGUI:
         self.build_direction = dict(active={}, inactive={})
         self.load_directions()
         self.setup()
-        self.active_slot = Slot(column=1)
+        self.active_slot = Slot(self, column=1)
 
     def setup(self):
         """
